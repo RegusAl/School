@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1601454114 source:f:\informatica\info cl-xi\grafuri neorientate\citirea si afisarea din fisier\main.cpp
+	<iostream>
+	<fstream>
+

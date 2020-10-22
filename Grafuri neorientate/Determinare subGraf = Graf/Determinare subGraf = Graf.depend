@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1601631026 source:f:\informatica\info cl-xi\grafuri neorientate\determinare subgraf = graf\main.cpp
+	<iostream>
+	<fstream>
+
+1601637586 source:i:\informatica\info cl-xi\grafuri neorientate\determinare subgraf = graf\main.cpp
+	<iostream>
+	<fstream>
+

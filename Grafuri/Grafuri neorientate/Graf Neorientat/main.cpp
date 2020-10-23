@@ -181,6 +181,44 @@ int cicluIP()
     ip.close();
 }
 
+//se afiseaza afirmatia daca este ciclu hamiltonian sau nu
+int cicluHamiltonian()
+{
+    int ok1=1, ok2=1, ok3=1, ok4=1;
+    ifstream h("hamiltonian.txt");
+    h>>k;
+    for(i=1; i<=k; i++)
+    {
+        h>>v[i];
+    }
+    for(i=1; i<=k-1; i++)
+    {
+        if(a[v[i]][v[i+1]]==0)
+            ok1=0;
+    }
+    if(v[1]!=v[k])
+    {
+        ok2=0;
+    }
+    for(i=1; i<=k-1; i++)
+        for(j=i+1; j<=k-1; j++)
+        {
+            if(v[i]==v[j])
+                ok3=0;
+        }
+    if(k-1!=n)
+    {
+        ok4=0;
+    }
+    if(ok1==1 && ok2==1 && ok3==1 && ok4==1)
+        return 1;
+    else if(ok1==1 && ok2==1)
+        return 0;
+    else
+        return -1;
+    h.close();
+}
+
 int main()
 {
     //functia de citire a listei de adiacenta
@@ -233,6 +271,14 @@ int main()
         cout<<"Ciclul este par"<<endl;
     else if(cicluIP()==0)
         cout<<"Ciclul este impar"<<endl;
+    else
+        cout<<"Nu este ciclu"<<endl;
+    cout<<endl;
+    //functia pentru ciclu hamiltonian
+    if(cicluHamiltonian()==1)
+        cout<<"Ciclul este hamiltonian"<<endl;
+    else if(cicluHamiltonian()==0)
+        cout<<"Ciclul nu este hamiltonian"<<endl;
     else
         cout<<"Nu este ciclu"<<endl;
     cout<<endl;

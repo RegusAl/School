@@ -219,6 +219,37 @@ int cicluHamiltonian()
     h.close();
 }
 
+//se afiseaza afirmatia daca este ciclu eulerian sau nu
+int cicluEulerian()
+{
+    int ok1=1, ok2=1, ok3=1;
+    ifstream e("eulerian.txt");
+    e>>k;
+    for(i=1;i<=k;i++)
+    {
+        e>>v[i];
+    }
+    for(i=1;i<=k-1;i++)
+    {
+        if(a[v[i]][v[i+1]]==0)
+            ok1=0;
+    }
+    if(v[1]!=v[k])
+    {
+        ok2=0;
+    }
+    if(k-1!=m)
+    {
+        ok3=0;
+    }
+    if(ok1==1 && ok2==1 && ok3==1)
+        return 1;
+    else if(ok1==1 && ok2==1)
+        return 0;
+    else return -1;
+
+}
+
 int main()
 {
     //functia de citire a listei de adiacenta
@@ -279,6 +310,14 @@ int main()
         cout<<"Ciclul este hamiltonian"<<endl;
     else if(cicluHamiltonian()==0)
         cout<<"Ciclul nu este hamiltonian"<<endl;
+    else
+        cout<<"Nu este ciclu"<<endl;
+    cout<<endl;
+    //functia pentru ciclu eulerian
+    if(cicluEulerian()==1)
+        cout<<"Ciclul este eulerian"<<endl;
+    else if(cicluEulerian()==0)
+        cout<<"Ciclul nu este eulerian"<<endl;
     else
         cout<<"Nu este ciclu"<<endl;
     cout<<endl;

@@ -35,7 +35,9 @@
 		<Unit filename="ciclu.txt" />
 		<Unit filename="ciclu_e.txt" />
 		<Unit filename="ciclu_ip.txt" />
+		<Unit filename="eulerian.txt" />
 		<Unit filename="graf_liste.txt" />
+		<Unit filename="hamiltonian.txt" />
 		<Unit filename="lant.txt" />
 		<Unit filename="lant_e.txt" />
 		<Unit filename="main.cpp" />

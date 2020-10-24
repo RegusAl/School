@@ -1,0 +1,88 @@
+#include <iostream>
+
+using namespace std;
+
+int a[100][100], n, m, k;
+
+//citirea arcelor
+void citire()
+{
+    int i, j;
+    cout<<"Numarul de noduri este: "<<endl;
+    cin>>n;
+    cout<<"Numarul de arce este: "<<endl;
+    cin>>m;
+    for(i=1; i<=n; i++)
+        for(j=1; j<=n; j++)
+        {
+            a[i][j]=0;
+        }
+    for(k=1; k<=m; k++)
+    {
+        cout<<"Muchia "<<k<<" este: ";
+        cin>>i>>j;
+        a[i][j]=1;
+    }
+}
+
+//afisarea matricii de adiacenta
+void afisare()
+{
+    for(int i=1; i<=n; i++)
+    {
+        for(int j=1; j<=n; j++)
+            cout<<a[i][j]<<" ";
+        cout<<endl;
+    }
+}
+
+//functia pentru grad exterior (x = +d(x))
+int grad_Exterior(int x)
+{
+    int nr=0;
+    for(int j=1; j<=n; j++)
+    {
+        if(a[x][j]==1)
+            nr++;
+    }
+    return nr;
+}
+
+//functia pentru grad interior (y = -d(y))
+int grad_Interior(int y)
+{
+    int nr=0;
+    for(int i=1;i<=n;i++)
+    {
+        if(a[i][y]==1)
+            nr++;
+    }
+    return nr;
+}
+
+int succesori(int s)
+{
+    int nr=0;
+    for(int j=1;j<=n;j++)
+    {
+        if(a[s][j]==1)
+            cout<<j<<" ";
+
+    }
+}
+
+int main()
+{
+    int x, y;
+    citire();
+    afisare();
+    cout<<endl;
+    cin>>x;
+    cout<<"Gradul exterior al nodului "<<x<<" este: ";
+    cout<<grad_Exterior(x);
+    cout<<endl;
+    cin>>y;
+    cout<<"Gradul interior al nodului "<<y<<" este: ";
+    cout<<grad_Interior(y);
+    return 0;
+}

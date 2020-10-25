@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int a[100][100], n, m, k;
+int a[100][100], n, m;
 
 //citirea grafului in functie de arce
 void citire()
@@ -14,8 +14,10 @@ void citire()
     cin>>m;
     for(i=1; i<=n; i++)
         for(j=1; j<=n; j++)
+        {
             a[i][j]=0;
-    for(k=1; k<=m; k++)
+        }
+    for(int k=1; k<=m; k++)
     {
         cout<<"Arcul "<<k<<" este: ";
         cin>>i>>j;
@@ -33,26 +35,23 @@ void afisare()
     }
 }
 
-int grad_exterior(int x)
+void succesori(int x)
 {
-    int nr=0;
-    for(int j=1; j<=n; j++)
-        if(a[x][j]==1)
-        {
-            nr++;
-        }
-    return nr;
+   for(int j=1;j<=n;j++)
+   {
+       if(a[x][j]==1)
+        cout<<j<<" ";
+
+   }
 }
 
-int grad_interior(int x)
+void predecesori(int x)
 {
-    int nr=0;
-    for(int i=1; i<=n; i++)
+    for(int i=1;i<=n;i++)
+    {
         if(a[i][x]==1)
-        {
-            nr++;
-        }
-    return nr;
+            cout<<i<<" ";
+    }
 }
 
 int main()
@@ -60,20 +59,17 @@ int main()
     int x;
     citire();
     cout<<endl;
-    cout<<"Matricea de adiacenta este: "<<endl;
-    cout<<"\n";
+    cout<<"Matricea de adiacenta este: ";
+    cout<<endl;
     afisare();
     cout<<endl;
-    cout<<"Dati nodul pentru care vreti sa aflat gradul: ";
+    cout<<"Nodul pentru care vreti sa aflati multimile succesorilor si a predecesorilor este: ";
     cin>>x;
     cout<<endl;
-    //grad exterior
-    cout<<"Gradul exterior al nodului "<<x<<" este: ";
-    cout<<grad_exterior(x);
+    cout<<"Multimea succesorilor nodului "<<x<<" este: ";
+    succesori(x);
     cout<<endl;
-    //grad interior
-    cout<<"Gradul interior al nodului "<<x<<" este: ";
-    cout<<grad_interior(x);
-
+    cout<<"Multimea predecesorilor nodului "<<x<<" este: ";
+    predecesori(x);
     return 0;
 }

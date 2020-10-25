@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int a[100][100], n, m, k;
+int a[100][100], n, m;
 
 //citirea grafului in functie de arce
 void citire()
@@ -14,8 +14,10 @@ void citire()
     cin>>m;
     for(i=1; i<=n; i++)
         for(j=1; j<=n; j++)
+        {
             a[i][j]=0;
-    for(k=1; k<=m; k++)
+        }
+    for(int k=1; k<=m; k++)
     {
         cout<<"Arcul "<<k<<" este: ";
         cin>>i>>j;
@@ -33,47 +35,47 @@ void afisare()
     }
 }
 
-int grad_exterior(int x)
+//multimea arcelor ce ies din "x"
+void arce_out(int x)
 {
-    int nr=0;
     for(int j=1; j<=n; j++)
         if(a[x][j]==1)
         {
-            nr++;
+            cout<<"("<<x<<","<<j<<")"<<" ";
         }
-    return nr;
 }
 
-int grad_interior(int x)
+//multimea arcelor ce intra in "x"
+void arce_in(int x)
 {
-    int nr=0;
     for(int i=1; i<=n; i++)
         if(a[i][x]==1)
         {
-            nr++;
+            cout<<"("<<i<<","<<x<<")"<<" ";
         }
-    return nr;
 }
+
+
 
 int main()
 {
     int x;
     citire();
     cout<<endl;
-    cout<<"Matricea de adiacenta este: "<<endl;
-    cout<<"\n";
+    cout<<"Matricea de adiacenta este: ";
+    cout<<endl;
     afisare();
     cout<<endl;
-    cout<<"Dati nodul pentru care vreti sa aflat gradul: ";
+    cout<<"Nodul pentru care vreti sa vedeti multimea arcelor este: ";
     cin>>x;
     cout<<endl;
-    //grad exterior
-    cout<<"Gradul exterior al nodului "<<x<<" este: ";
-    cout<<grad_exterior(x);
+    cout<<"Multimea arcelor ce ies din "<<x<<" este: ";
+    arce_out(x);
     cout<<endl;
-    //grad interior
-    cout<<"Gradul interior al nodului "<<x<<" este: ";
-    cout<<grad_interior(x);
+    cout<<"Multimea arcelor ce intra in "<<x<<" este: ";
+    arce_in(x);
+    cout<<endl;
+
 
     return 0;
 }

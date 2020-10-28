@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1603908812 source:e:\informatica\info cl-xi\grafuri neorientate\parcurgeri grafuri neorientate\main.cpp
+	<iostream>
+	<fstream>
+

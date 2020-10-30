@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1604067228 source:i:\informatica\info cl-xi\grafuri neorientate\componente conexe\main.cpp
+	<iostream>
+	<fstream>
+

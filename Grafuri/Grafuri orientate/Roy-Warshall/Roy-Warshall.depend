@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1604425008 source:e:\informatica\info cl-xi\grafuri orientate\roy-warshall\main.cpp
+	<iostream>
+	<fstream>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1604670064 source:i:\informatica\info cl-xi\grafuri orientate\parcurgere graf turneu\main.cpp
+	<iostream>
+	<fstream>
+

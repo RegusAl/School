@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1604670866 source:i:\informatica\info cl-xi\grafuri orientate\transformare din graf complet in graf turneu\main.cpp
+	<iostream>
+	<fstream>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1605112674 source:e:\informatica\info cl-xi\grafuri orientate\verificare lant elementar\main.cpp
+	<iostream>
+	<fstream>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1605114356 source:e:\informatica\info cl-xi\grafuri orientate\verificare circuit\main.cpp
+	<iostream>
+	<fstream>
+

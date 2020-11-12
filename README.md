@@ -12,3 +12,9 @@ Github repository for lab projects 📄.
     
 ## [Download all the repository](https://github.com/RegusAl/School/archive/main.zip)
 
+<p align="center">
+<img src="https://github.com/RegusAl/School/blob/main/Website/alien.gif" height="150px">
+</p>
+
+ ### <p align="center"> made by [RegusAl](https://github.com/RegusAl).</p>
+

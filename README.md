@@ -2,7 +2,7 @@
 
 Github repository for lab projects 📄.
 
-## C++ :
+## Exerciții C++ :
  
    - [Grafuri](https://github.com/RegusAl/School/tree/main/Grafuri):
       * [Grafuri Neorientate](https://github.com/RegusAl/School/tree/main/Grafuri/Grafuri%20neorientate)

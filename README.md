@@ -10,4 +10,5 @@ Github repository for lab projects 📄.
       * [Grafuri Neorientate](https://github.com/RegusAl/School/tree/main/Grafuri/Grafuri%20neorientate)
       * [Grafuri Orientate](https://github.com/RegusAl/School/tree/main/Grafuri/Grafuri%20orientate)
     
+## [Download all the repository](https://github.com/RegusAl/School/archive/main.zip)
 

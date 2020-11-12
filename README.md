@@ -1,6 +1,8 @@
 # School
 
 Github repository for lab projects 📄.
+<br>
+https://regusal.github.io/School/
 
 ## Exerciții C++ :
  

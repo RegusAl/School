@@ -1,10 +1,10 @@
 # School
 
-Github repository for lab projects 📄.
+Algoritmi elementari si exercitii la Informatica.
 <br>
 
 
-## Exerciții C++ :
+##  C++ :
  
   - [Grafuri](https://github.com/RegusAl/School/tree/main/Grafuri): 
       * [Grafuri Neorientate](https://github.com/RegusAl/School/tree/main/Grafuri/Grafuri%20neorientate)

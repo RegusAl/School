@@ -9,7 +9,7 @@ Algoritmi elementari si exercitii la Informatica.
   - [Grafuri](https://github.com/RegusAl/School/tree/main/Grafuri): 
       * [Grafuri Neorientate](https://github.com/RegusAl/School/tree/main/Grafuri/Grafuri%20neorientate)
       * [Grafuri Orientate](https://github.com/RegusAl/School/tree/main/Grafuri/Grafuri%20orientate)
-      * [Algoritmi Grafuri & Arbori](https://github.com/RegusAl/School/tree/main/Grafuri/Algoritmi%20Grafuri%20%26%20Arbori/Arborele%20partial%20de%20cost%20minim)
+      * [Algoritmi Grafuri & Arbori](https://github.com/RegusAl/School/tree/main/Grafuri/Algoritmi%20Grafuri%20%26%20Arbori)
     
 [!!! Download all the repository !!!](https://github.com/RegusAl/School/archive/main.zip)
 

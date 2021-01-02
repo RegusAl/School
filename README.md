@@ -5,7 +5,9 @@ Algoritmi elementari si exercitii la Informatica - Liceu.
 
 
 ##  C++ :
- 
+  - [Vectori](null)
+  - [Algoritmi de sortare](null)
+  - [Matrici](null)
   - [Grafuri](https://github.com/RegusAl/School/tree/main/Grafuri): 
       * [Grafuri Neorientate](https://github.com/RegusAl/School/tree/main/Grafuri/Grafuri%20neorientate)
       * [Grafuri Orientate](https://github.com/RegusAl/School/tree/main/Grafuri/Grafuri%20orientate)

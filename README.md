@@ -3,6 +3,8 @@
 Algoritmi elementari si exercitii la Informatica - Liceu.
 <br>
 
+:exclamation: Site-ul este in constructie... :exclamation:
+
 
 ##  C++ :
   - [Vectori](null)

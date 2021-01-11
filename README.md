@@ -8,6 +8,10 @@ Algoritmi elementari si exercitii la Informatica - Liceu.
   - [Vectori](null)
   - [Algoritmi de sortare](null)
   - [Matrici](null)
+  - [Stive](null)
+  - [Coada](null)
+  - [Liste Simplu Inlantuite](null)
+  - [Liste Dublu Inlantuite](null)
   - [Grafuri](https://github.com/RegusAl/School/tree/main/Grafuri): 
       * [Grafuri Neorientate](https://github.com/RegusAl/School/tree/main/Grafuri/Grafuri%20neorientate)
       * [Grafuri Orientate](https://github.com/RegusAl/School/tree/main/Grafuri/Grafuri%20orientate)

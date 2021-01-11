@@ -3,7 +3,7 @@
 Algoritmi elementari si exercitii la Informatica - Liceu.
 <br>
 
-:exclamation: Site-ul este in constructie... :exclamation:
+:exclamation: Site-ul este in constructie...(unele linkuri s-ar putea sa nu functioneze) :exclamation:
 
 
 ##  C++ :

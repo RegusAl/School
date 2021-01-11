@@ -14,6 +14,9 @@ Algoritmi elementari si exercitii la Informatica - Liceu.
   - [Coada](null)
   - [Liste Simplu Inlantuite](null)
   - [Liste Dublu Inlantuite](null)
+  - [Subprograme](null)
+  - [Subprogram  recursive](null)
+  - [Recursivitate](null)
   - [Grafuri](https://github.com/RegusAl/School/tree/main/Grafuri): 
       * [Grafuri Neorientate](https://github.com/RegusAl/School/tree/main/Grafuri/Grafuri%20neorientate)
       * [Grafuri Orientate](https://github.com/RegusAl/School/tree/main/Grafuri/Grafuri%20orientate)

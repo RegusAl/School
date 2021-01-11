@@ -13,7 +13,6 @@ Algoritmi elementari si exercitii la Informatica - Liceu.
       * [Grafuri Orientate](https://github.com/RegusAl/School/tree/main/Grafuri/Grafuri%20orientate)
       * [Algoritmi Grafuri & Arbori](https://github.com/RegusAl/School/tree/main/Grafuri/Algoritmi%20Grafuri%20%26%20Arbori)
     
-[!!! Download all the repository !!!](https://github.com/RegusAl/School/archive/main.zip)
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/RegusAl/School/main/Website/alien.gif" height="150px">

@@ -26,5 +26,5 @@ Algoritmi elementari si exercitii la Informatica - Liceu.
 <p align="center">
 <img src="https://raw.githubusercontent.com/RegusAl/School/main/Website/alien.gif" height="150px">
 </p>
-<h6 align="center"> made by  RegusAl .</h6>
+<h6 align="center"> made by  ©RegusAl 2020-2021 .</h6>
 

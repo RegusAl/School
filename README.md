@@ -1,6 +1,6 @@
 # School
 
-Algoritmi elementari si exercitii la Informatica - Liceu.
+Algoritmi elementari si exercitii la Informatica(Liceu).
 <br>
 
 !!! Site-ul este in constructie...(unele linkuri s-ar putea sa nu functioneze) !!!

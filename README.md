@@ -8,17 +8,18 @@ Algoritmi elementari si exercitii la Informatica(Liceu).
 
 ##  C++ :
 
-  - [Vectori](null)
-  - [Algoritmi de sortare](null)
-  - [Matrici](null)
-  - [Stive](null)
-  - [Coada](null)
-  - [Liste Simplu Inlantuite](null)
-  - [Liste Dublu Inlantuite](null)
-  - [Subprograme](null)
-  - [Subprogram  recursive](null)
-  - [Recursivitate](null)
-  - [Grafuri](https://github.com/RegusAl/School/tree/main/Grafuri): 
+- [Vectori]()
+- [Algoritmi de Sortare]()
+- [Matrici]()
+- [Înregistrări]()
+- [Stive]()
+- [Coada]()
+- [Liste Simplu Înlănțuite]()
+- [Liste Dublu Înlănțuite]()
+- [Subprograme]()
+- [Subprograme Recursive]()
+- [Recursivitate]()
+- [Grafuri](https://github.com/RegusAl/School/tree/main/Grafuri): 
       * [Grafuri Neorientate](https://github.com/RegusAl/School/tree/main/Grafuri/Grafuri%20neorientate)
       * [Grafuri Orientate](https://github.com/RegusAl/School/tree/main/Grafuri/Grafuri%20orientate)
       * [Algoritmi Grafuri & Arbori](https://github.com/RegusAl/School/tree/main/Grafuri/Algoritmi%20Grafuri%20%26%20Arbori)

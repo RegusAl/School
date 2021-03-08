@@ -2,11 +2,12 @@
 
 Algoritmi elementari si exercitii la Informatica(Liceu).
 <br>
-
+<blockquote>
 !!! Site-ul este in constructie...(unele linkuri s-ar putea sa nu functioneze) !!!
-
+</blockquote>
 
 ##  C++ :
+<code class="language-plaintext highlighter-rouge">C++</code> <code class="language-plaintext highlighter-rouge">Algorithms</code> <code class="language-plaintext highlighter-rouge">Data Structures</code>
 
 - [Vectori]()
 - [Algoritmi de Sortare]()

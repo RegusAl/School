@@ -16,10 +16,11 @@ void afis()
         cout << endl;
     }
     contor++;
+    cout<<endl;
 }
 void back(int coloana)
 {
-    for(int i = 1 ; i <= n && contor == 0; i++)
+    for(int i = 1 ; i <= n; i++)
     {
         if(!p[i])
         {

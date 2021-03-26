@@ -4,6 +4,7 @@ using namespace std;
 
 int n, k, st[100];
 
+//functia 'tipar'
 void tipar(int p)
 {
     for(int i=1; i<=n; i++)
@@ -11,6 +12,7 @@ void tipar(int p)
     cout<<endl;
 }
 
+//functia 'valid'
 int valid(int p)
 {
     int i, ok=1;
@@ -22,6 +24,7 @@ int valid(int p)
     return ok;
 }
 
+//functia 'backtracking' - recursiva
 void backtracking(int p)
 {
     for(int i=1; i<=n; i++)
@@ -37,6 +40,7 @@ void backtracking(int p)
     }
 }
 
+//main
 int main()
 {
     cin>>n;

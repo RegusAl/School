@@ -12,7 +12,7 @@ Algoritmi elementari si exercitii la Informatica(Liceu).
 - [Vectori]()
 - [Algoritmi de Sortare]()
 - [Matrici]()
-- [Înregistrări]()
+- [Siruri de caractere]()
 - [Structuri de date]()
     * [Stive]()
     * [Coada]()

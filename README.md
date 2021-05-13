@@ -12,7 +12,7 @@ Algoritmi elementari si exercitii la Informatica(Liceu).
 - [Vectori]()
 - [Algoritmi de Sortare]()
 - [Matrici]()
-- [Siruri de caractere]()
+- [Siruri de caractere](https://github.com/RegusAl/School/tree/main/Siruri%20de%20caractere)
 - [Structuri de date]()
     * [Stive]()
     * [Coada]()

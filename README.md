@@ -23,11 +23,11 @@ Algoritmi elementari si exercitii la Informatica(Liceu).
 - [Subprograme]()
 - [Subprograme Recursive]()
 - [Recursivitate]()
-- [Backtracking](https://github.com/RegusAl/School/tree/main/Backtracking)
-- [Grafuri](https://github.com/RegusAl/School/tree/main/Grafuri): 
-     * [Grafuri Neorientate](https://github.com/RegusAl/School/tree/main/Grafuri/Grafuri%20neorientate)
-     * [Grafuri Orientate](https://github.com/RegusAl/School/tree/main/Grafuri/Grafuri%20orientate)
-     * [Algoritmi Grafuri & Arbori](https://github.com/RegusAl/School/tree/main/Grafuri/Algoritmi%20Grafuri%20%26%20Arbori)
+- ✔️ [Backtracking](https://github.com/RegusAl/School/tree/main/Backtracking)
+- ✔️ [Grafuri](https://github.com/RegusAl/School/tree/main/Grafuri): 
+     * ✔️ [Grafuri Neorientate](https://github.com/RegusAl/School/tree/main/Grafuri/Grafuri%20neorientate)
+     * ✔️ [Grafuri Orientate](https://github.com/RegusAl/School/tree/main/Grafuri/Grafuri%20orientate)
+     * ✔️ [Algoritmi Grafuri & Arbori](https://github.com/RegusAl/School/tree/main/Grafuri/Algoritmi%20Grafuri%20%26%20Arbori)
 
     
 

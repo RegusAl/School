@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1621260893 source:d:\11a - albertregus\siruri de caractere\inversarea cuvintelor ce incep cu vocale\main.cpp
+	<iostream>
+	<string.h>
+

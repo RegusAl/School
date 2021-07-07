@@ -10,19 +10,7 @@ Algoritmi elementari si exercitii la Informatica(Liceu).
 <code class="language-plaintext highlighter-rouge">C++</code> <code class="language-plaintext highlighter-rouge">Algorithms</code> <code class="language-plaintext highlighter-rouge">Data Structures</code>
 
 - [Tablouri unidimensionale - Vectori]()
-- [Algoritmi de Sortare]()
-- [Matrici]()
 - [Siruri de caractere](https://github.com/RegusAl/School/tree/main/Siruri%20de%20caractere)
-- [Structuri de date]()
-    * [Stive]()
-    * [Coada]()
-- [Liste alocate dinamic]()
-    * [Liste Simplu Înlănțuite]()
-    * [Liste circulare]()
-    * [Liste Dublu Înlănțuite]()
-- [Subprograme]()
-- [Subprograme Recursive]()
-- [Recursivitate]()
 - ✔️ [Backtracking](https://github.com/RegusAl/School/tree/main/Backtracking)
 - ✔️ [Grafuri](https://github.com/RegusAl/School/tree/main/Grafuri):
      * ✔️ [Grafuri Neorientate](https://github.com/RegusAl/School/tree/main/Grafuri/Grafuri%20neorientate)

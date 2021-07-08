@@ -1,0 +1,1 @@
+Siruri de caractere

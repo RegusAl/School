@@ -9,7 +9,7 @@ Algoritmi elementari si exercitii la Informatica(Liceu).
 ##  C++ :
 <code class="language-plaintext highlighter-rouge">C++</code> <code class="language-plaintext highlighter-rouge">Algorithms</code> <code class="language-plaintext highlighter-rouge">Data Structures</code>
 
-- [Tablouri unidimensionale - Vectori]()
+- [Tablouri unidimensionale - Vectori](https://github.com/RegusAl/School/tree/main/Tabluri%20unidimensionale%20-%20Vectori)
 - [Siruri de caractere](https://github.com/RegusAl/School/tree/main/Siruri%20de%20caractere)
 - ✔️ [Backtracking](https://github.com/RegusAl/School/tree/main/Backtracking)
 - ✔️ [Grafuri](https://github.com/RegusAl/School/tree/main/Grafuri):
